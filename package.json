@@ -1,0 +1,26 @@
+{
+  "name": "car-listing-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleey/car-listing-platform.git"
+  },
+  "keywords": [
+    "carlisting"
+  ],
+  "author": "aminat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleey/car-listing-platform/issues"
+  },
+  "homepage": "https://github.com/oleey/car-listing-platform#readme",
+  "dependencies": {
+    "jest": "^24.8.0",
+    "jquery": "^3.4.1"
+  }
+}
