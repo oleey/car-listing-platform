@@ -1,0 +1,31 @@
+{
+    "cars":[
+        {
+            "id":1,
+            "name":"venza",
+            "spec:": "3321",
+            "location": "Osun",
+            "price": "300,000",
+            "condition": "locally used",
+            "color": "white",
+            "mileage": "52345",
+            "year": "2019",
+            "bodyType": "4 Wheel Drives & SUVs",
+            "driveType": "4 wheel Drive",
+            "fuel": "Petrol",
+            "interiorType": "Leather",
+            "doorCount": "4",
+            "driveSetup": "Lefthand Drive",
+            "transmission": "automatic",
+            "features":["air conditioning"]
+
+        }
+    ], 
+    "users":[
+        {
+            "id":1,
+            "name": "Sola",
+            "email address": "sola@mail.com"
+        }
+    ]
+}
