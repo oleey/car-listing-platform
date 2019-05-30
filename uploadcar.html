@@ -1,34 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 	<title>Upload a car</title>
 </head>
 <body>
-	<form action="" method="POST">
+	<form action="./javascript/index.js" method="POST">
 
         <!-- NAME -->
         <div class="form-items">
             <div id="name" class="form-group">
-            <label for="name">Name of car</label>
-            <input type="text" placeholder="Venza">
+                <label for="name">Name of car</label>
+                <input id="nameofcar" type="text" placeholder="Venza">
             <!-- errors will go here -->
-        </div>
+            </div>
 
         <div id="price" class="form-group">
-            <label for="name"> Price of the car</label>
-            <input type="text" placeholder="100, 000 naira">
+            <label for="price"> Price of the car</label>
+            <input id="priceofcar" type="text" placeholder="100, 000 naira">
         </div>
 
         <div id="location" class="form-group">
-            <label for="name"> Location</label>
-            <input type="text" placeholder="gg@mail.com">
+            <label for="location"> Location of the car</label>
+            <input id="locationofcar" type="text" placeholder="Enugu">
+        </div>
+
+        <div id="condition" class="form-group">
+            <label for="condition"> Condition of the car </label>
+            <input id="conditionofcar" type="text" placeholder="Locally used">
+        </div>
+
+        <div id="color" class="form-group">
+            <label for="color"> Color of the car</label>
+            <input id="colorofcar" type="text" placeholder="Blue">
+        </div>
+
+        <div id="mileage" class="form-group">
+            <label for="mileage"> Mileage (Km)</label>
+            <input id="mileageofcar" type="text" placeholder="59876">
+        </div>
+
+        <div id="year" class="form-group">
+            <label for="year"> Year: </label>
+            <input id="yearofcar" type="text" placeholder="2019">
+        </div>
+
+        <div id="bodytype" class="form-group">
+            <label for="bodytype"> Body Type: </label>
+            <input id="bodytypeofcar" type="text" placeholder="4 Wheel Drives & SUVs">
+        </div>
+
+        <div id="drivetype" class="form-group">
+            <label for="drivetype"> Drive Type: </label>
+            <input id="drivetypeofcar" type="text" placeholder="4 Wheel Drives">
+        </div>
+
+        <div id="fuel" class="form-group">
+            <label for="fuel"> Fuel: </label>
+            <input id="fuelofcar" type="text" placeholder="Petrol">
+        </div>
+
+        <div id="interiortype" class="form-group">
+            <label for="interiortype"> Interior Type: </label>
+            <input id="interiortypeofcar" type="text" placeholder="Leather">
+        </div>
+
+        <div id="doorcount" class="form-group">
+            <label for="doorcount"> Door Count: </label>
+            <input id="doorcountofcar" type="text" placeholder="4">
+        </div>
+
+        <div id="drivesetup" class="form-group">
+            <label for="drivesetup"> Drive Setup: </label> <br />
+            <input id="drivesetupofcar" type="radio" value="Lefthand Drive">Lefthand Drive <br/>
+            <input id="drivesetupofcar" type="radio" value="Righthand Drive">Righthand Drive
+        </div>
+
+        <div id="transmission" class="form-group">
+            <label for="transmission"> Transmission: </label> <br />
+            <input id="transmissionofcar" type="radio" name =
+            "transmissionofcar" value="automatic"> Automatic <br/>
+            <input id="transmissionofcar" type="radio" name="transmissionofcar" value="manual"> Manual
         </div>
 
         <div id="uploadbtn">
-            <button type="submit">Register</button>
+            <button type="submit" class="registerbtn">Upload</button>
         </div>
-        </div> 
+    </div> 
  </form>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="./javascript/index.js"></script>
+ <!-- <script>
+    //  $(function() {
+    //     $('#uploadbtn').fadeToggle(1000).fadeToggle(1000);
+    //  });
+    // $(document).ready(function(){
+
+    // });
+    
+ </script> -->
 </body>
 </html>

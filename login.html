@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Login</title>
+</head>
+
+<body>
+        <div class="form-items">
+            <form action="login.js" method="POST">
+                <!-- <div class="form-items"> -->
+
+                    <div id="error_messages">
+                        <ul id="error_messages">
+                            <!-- <li>Email Address is required</li> -->
+                        </ul>
+                    </div>
+                    
+                        <div id="email" class="form-group">
+                                <label for="email">Email Address: </label>
+                                <input id="emailofdealer" type="text" placeholder="gg@gmail.com" required>
+                            <!-- errors will go here -->
+                            </div>
+    
+                            <div id="password" class="form-group">
+                                    <label for="password">Password: </label>
+                                    <input id="passwordofdealer" type="password" placeholder="password" required>
+                                <!-- errors will go here -->
+                                </div>
+    
+                                <div id="loginbtn">
+                                        <button type="submit" class="registerbtn">Login</button>
+                                    </div>
+                <!-- </div> -->         
+            </form>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="./javascript/login.js"></script>
+    </body>
+    </html>
