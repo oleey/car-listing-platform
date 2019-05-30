@@ -2,6 +2,13 @@ $(function() {
     updatePage();
 });
 
+$('#uploadbtn').on('click', function(event){
+});
+
+function getdetailsofacar(){
+
+}
+
 function updatePage(){
     var $cardofcar = $('#cardofcar');
     var $getnameofcar = $('#getnameofcar')
