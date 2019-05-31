@@ -12,13 +12,12 @@ $(function() {
                 <h1 id="getnameofcar">${item.nameofcar}</h1>
                 <h1 id="getlocation">${item.locationofcar}</h1> 
                 <button id="${item.id}" class="morebtn tt" type="submit">More...</button>
-                <button class="editbtn" type="">Edit</button>
+                <button class="editbtn" type="menu">Edit</button>
                 <button class="deletebtn ${item.id}" type="submit">Delete</button>
               </div>
           </div>
             `);            
         });
-        console.log(carid);
         getItem();
         deleteListing();
     },
@@ -27,6 +26,16 @@ $(function() {
     }
 });
 });
+
+//update Listing
+function updateListing(event){
+  var btnArr = $(".editbtn").toArray();
+  $.each(btnArr, function(i, val) {
+    var id = i + 1;
+    
+  });
+
+}
 
 // Delete Listing
 function deleteListing(event) {
