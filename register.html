@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Login</title>
+</head>
+<body>
+        <div class="form-items">
+            <h1>To upload a car for listing, you have to be a registered dealer</h1>
+            <h1>Already a registered dealer?<a href="login.html">Login</a></h1>
+
+            <form action="register.js" method="POST">
+                    <div id="error_messages">
+                        <h1 id="error_messages"></h1>
+                        </div>
+                <!-- <div class="form-items"> -->
+                        <div id="name" class="form-group">
+                                <label for="name">Name: </label>
+                                <input id="nameofdealer" type="text" placeholder="Shola">
+                            <!-- errors will go here -->
+                            </div>
+                        <div id="email" class="form-group">
+                                <label for="email">Email Address: </label>
+                                <input id="emailofdealer" type="text" placeholder="gg@gmail.com">
+                            <!-- errors will go here -->
+                            </div>
+    
+                            <div id="password" class="form-group">
+                                    <label for="password">Password: </label>
+                                    <input id="passwordofdealer" type="text" placeholder="password">
+                                <!-- errors will go here -->
+                                </div>
+
+                                <div id="phonenumber" class="form-group">
+                                        <label for="phonenumber">Phone Number: </label>
+                                        <input id="phonenumberofdealer" type="text" placeholder="phonenumber">
+                                    <!-- errors will go here -->
+                                    </div>
+    
+                                <div id="registerbtn">
+                                        <button type="submit" class="registerbtn">Register</button>
+                                    </div>
+
+                <!-- </div> -->
+                    
+            </form>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="./javascript/register.js"></script>
+    </body>
+    </html>
