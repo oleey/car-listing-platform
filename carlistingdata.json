@@ -1,30 +1,325 @@
 {
-    "cars":[
-        {
-            "id":1,
-            "nameofcar":"venza",
-            "locationofcar": "Osun",
-            "priceofcar": "300,000",
-            "conditionofcar": "locally used",
-            "colorofcar": "white",
-            "mileageofcar": "52345",
-            "yearofcar": "2019",
-            "bodytypeofcar": "4 Wheel Drives & SUVs",
-            "drivetypeofcar": "4 wheel Drive",
-            "fuelofcar": "Petrol",
-            "interiortypeofcar": "Leather",
-            "doorcountofcar": "4",
-            "drivesetupofcar": "Lefthand Drive",
-            "transmissionofcar": "automatic",
-            "features":["air conditioning"]
-
-        }
-    ], 
-    "users":[
-        {
-            "id":1,
-            "name": "Sola",
-            "email address": "sola@mail.com"
-        }
-    ]
+  "cars": [
+    {
+      "id": 1,
+      "nameofcar": "venza",
+      "locationofcar": "Osun",
+      "priceofcar": "300,000",
+      "conditionofcar": "locally used",
+      "colorofcar": "white",
+      "mileageofcar": "52345",
+      "yearofcar": "2019",
+      "bodytypeofcar": "4 Wheel Drives & SUVs",
+      "drivetypeofcar": "4 wheel Drive",
+      "fuelofcar": "Petrol",
+      "interiortypeofcar": "Leather",
+      "doorcountofcar": "4",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic"
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 2
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 3
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 4
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 5
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 6
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 7
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 9
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 10
+    },
+    {
+      "nameofcar": "ccc",
+      "locationofcar": "rrr",
+      "priceofcar": "ggjj",
+      "conditionofcar": "uuy",
+      "colorofcar": "trrd",
+      "mileageofcar": "eesd",
+      "yearofcar": "uuui",
+      "bodytypeofcar": "rrrr",
+      "drivetypeofcar": "reeer",
+      "fuelofcar": "jjjj",
+      "interiortypeofcar": "awertfy",
+      "doorcountofcar": "fg",
+      "drivesetupofcar": "Lefthand Drive",
+      "transmissionofcar": "automatic",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Sola",
+      "email address": "sola@mail.com"
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 2
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 3
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 4
+    },
+    {
+      "emailofdealer": "ssd",
+      "passwordofdealer": "ddd",
+      "id": 5
+    },
+    {
+      "emailofdealer": "ssd",
+      "passwordofdealer": "ddd",
+      "id": 6
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 7
+    },
+    {
+      "emailofdealer": "mide",
+      "passwordofdealer": "",
+      "id": 8
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 9
+    },
+    {
+      "emailofdealer": "ghjjk",
+      "passwordofdealer": "njjjk",
+      "id": 10
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 11
+    },
+    {
+      "emailofdealer": "ghjjk",
+      "passwordofdealer": "nnhh",
+      "id": 12
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 13
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 14
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 15
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 16
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 17
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 18
+    },
+    {
+      "emailofdealer": "",
+      "passwordofdealer": "",
+      "id": 19
+    },
+    {
+      "emailofdealer": "ghjjk",
+      "passwordofdealer": "jjk",
+      "id": 20
+    },
+    {
+      "nameofdealer": "Meenah",
+      "emailofdealer": "mmjj",
+      "passwordofdealer": "juu",
+      "phonenumberofdealer": "tyui",
+      "id": 21
+    },
+    {
+      "nameofdealer": "shsjjk",
+      "emailofdealer": "sssdd",
+      "passwordofdealer": "sysyhj",
+      "phonenumberofdealer": "shhsjs",
+      "id": 22
+    },
+    {
+      "nameofdealer": "yuun",
+      "emailofdealer": "jjjk",
+      "passwordofdealer": "hghuj",
+      "phonenumberofdealer": "huj",
+      "id": 23
+    },
+    {
+      "nameofdealer": "nnm",
+      "emailofdealer": "nnnm",
+      "passwordofdealer": "jjk",
+      "phonenumberofdealer": "look",
+      "id": 24
+    },
+    {
+      "nameofdealer": "Meenah",
+      "emailofdealer": "meenah@gmail.com",
+      "passwordofdealer": "kkk",
+      "phonenumberofdealer": "1234",
+      "id": 25
+    },
+    {
+      "nameofdealer": "jkkl",
+      "emailofdealer": "njj",
+      "passwordofdealer": "kiki",
+      "phonenumberofdealer": "0900",
+      "id": 26
+    },
+    {
+      "nameofdealer": "Meenah",
+      "emailofdealer": "hjjm",
+      "passwordofdealer": "ioo",
+      "phonenumberofdealer": "oii",
+      "id": 27
+    }
+  ]
 }

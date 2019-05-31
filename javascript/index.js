@@ -37,6 +37,7 @@ $(function() {
             dataType: 'json',
             success:function(newUpdate){
                // $getnameofcar.append('<li>name: ' + newUpdate.nameofcar + '</li>')
+               window.location.href = 'home.html';
                
             },
             error: function(){

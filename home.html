@@ -7,34 +7,47 @@
 <body>
 	<div id="beginning">
 		<h1 id="textinbeginning">Welcome to the car listing platform</h1>
-    <h2 id="textinbeginning"> We hope to help you find cars up for sale. </h2>
-    <h3>On this platform, these are some of the operations that can be carried out:</h3>
+    <h2 id="textinbeginning"> We hope to help you find cars up for sale and upload cars for sale</h2>
+    <!-- <h3>On this platform, these are some of the operations that can be carried out:</h3> -->
     <ul class="operations">
 				<!-- ./javascript/index.js -->
     	<li class="operationslist"><a href="register.html">Upload a car for listing</a> </li>
     	<!-- <li class="operationslist">Read all car listings</li> -->
     	<!-- <li class="operationslist">Read single car listing.</li> -->
-    	<li class="operationslist">Update a car listing.</li>
-    	<li class="operationslist">Delete a car listing.</li>
+    	<!-- <li class="operationslist">Update a car listing.</li> -->
+    	<!-- <li class="operationslist">Delete a car listing.</li> -->
     </ul>
 	</div>
 
 	<div id="car_list" class="car_list">
-		<!-- <div class="row"> -->
-			<!-- <div class="column">
-				<div id="cardofcar" class="card">
-    				<img src="image1.jpg" alt="ferrari">
-						<h1 id="getnameofcar"></h1>
-						<h1 id="getlocation"></h1>
-    			</div>
-			</div> -->
-			<!-- </div> -->
-			<div id="cardetails"></div>
+			<!-- <button id="morebtn" class="morebtn" type="submit">More</button> -->
 	</div>
 
-	
+
+	<div id="myModal" class="modal">
+
+			<div class="modal-content">
+					<span class="close">&times;</span>
+					<!-- <h1 id="getnameofcar">${this.nameofcar}</h1> -->
+					</div>
+
+	</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+// document.getElementById("morebtn").onclick = function() {
+//   document.getElementById("myModal").style.display = "block";
+// }
+// document.getElementsByClassName("close")[0].onclick = function() {
+//   document.getElementById("myModal").style.display = "none";
+// }
+
+// window.onclick = function(event) {
+//   if (event.target == document.getElementById("myModal")) {
+//     document.getElementById("myModal").style.display = "none";
+//   }
+// }
+</script>
  <script src="./javascript/global.js"></script>
  <!-- <script src="./javascript/cardetails.js"></script> -->
  <!-- <script src="./javascript/index.js"></script> -->
