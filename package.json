@@ -21,6 +21,6 @@
   "homepage": "https://github.com/oleey/car-listing-platform#readme",
   "dependencies": {
     "jest": "^24.8.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
